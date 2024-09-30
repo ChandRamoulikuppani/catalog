@@ -129,10 +129,10 @@ const testCase1 = {
     const k2 = testCase2.keys.k;
     const secret1 = lagrangeInterpolation(points1, k1);
     const secret2 = lagrangeInterpolation(points2, k2);
-    console.log('Secret for test case 1:', secret1);
-    console.log('Secret for test case 2:', secret2);
+    console.log('OUTPUT for test case 1:', secret1);
+    console.log('OUTPUT for test case 2:', secret2);
     const wrongPoints = findWrongPoints(points2, k2);
-    console.log('Wrong points for test case 2:', wrongPoints);
+    console.log('Wrong points (x,y) for test case 2:', wrongPoints);
   }
   
   main();
